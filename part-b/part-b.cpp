@@ -33,3 +33,16 @@ int main() {
     // terminate
     return 0;
 }
+
+void towerHanoi(int n, string fromRod, string toRod, string auxRod, int& numMoves) {
+    if (n == 1) {
+        cout << "Move disk 1 from " << fromRod << " to " << toRod << endl;
+        numMoves++;
+        return;
+    }
+
+    towerHanoi(n - 1, fromRod, auxRod, toRod, numMoves);
+    cout << "Move disk " << n << " from " << fromRod << " to " << toRod << endl;
+    numMoves++;
+    towerHanoi(n - 1, auxRod, toRod, fromRod, numMoves);
+}

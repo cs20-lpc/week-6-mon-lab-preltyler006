@@ -1,0 +1,96 @@
+part a)
+
+----------------------------------------
+Maximum using Recursion: 130
+Should be 130 for the fixed array
+----------------------------------------
+
+----------------------------------------
+Maximum using Standard Algorithm: 9979
+Maximum using Recursion: 9979
+----------------------------------------
+
+part b)
+
+----------------------------------------
+Trying n = 1
+
+Move disk 1 from Rod #1 to Rod #2
+
+Number of Moves = 1
+----------------------------------------
+Trying n = 2
+
+Move disk 1 from Rod #1 to Rod #3
+Move disk 2 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #2
+
+Number of Moves = 3
+----------------------------------------
+Trying n = 3
+
+Move disk 1 from Rod #1 to Rod #2
+Move disk 2 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #3
+Move disk 3 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #1
+Move disk 2 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #2
+
+Number of Moves = 7
+----------------------------------------
+Trying n = 4
+
+Move disk 1 from Rod #1 to Rod #3
+Move disk 2 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #2
+Move disk 3 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #1
+Move disk 2 from Rod #2 to Rod #3
+Move disk 1 from Rod #1 to Rod #3
+Move disk 4 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #2
+Move disk 2 from Rod #3 to Rod #1
+Move disk 1 from Rod #2 to Rod #1
+Move disk 3 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #3
+Move disk 2 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #2
+
+Number of Moves = 15
+----------------------------------------
+Trying n = 5
+
+Move disk 1 from Rod #1 to Rod #2
+Move disk 2 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #3
+Move disk 3 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #1
+Move disk 2 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #2
+Move disk 4 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #3
+Move disk 2 from Rod #2 to Rod #1
+Move disk 1 from Rod #3 to Rod #1
+Move disk 3 from Rod #2 to Rod #3
+Move disk 1 from Rod #1 to Rod #2
+Move disk 2 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #3
+Move disk 5 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #1
+Move disk 2 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #2
+Move disk 3 from Rod #3 to Rod #1
+Move disk 1 from Rod #2 to Rod #3
+Move disk 2 from Rod #2 to Rod #1
+Move disk 1 from Rod #3 to Rod #1
+Move disk 4 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #2
+Move disk 2 from Rod #1 to Rod #3
+Move disk 1 from Rod #2 to Rod #3
+Move disk 3 from Rod #1 to Rod #2
+Move disk 1 from Rod #3 to Rod #1
+Move disk 2 from Rod #3 to Rod #2
+Move disk 1 from Rod #1 to Rod #2
+
+Number of Moves = 31

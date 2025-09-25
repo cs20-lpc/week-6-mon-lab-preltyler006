@@ -10,7 +10,7 @@ using namespace std;
 *******************************************************************************/
 
 template <typename T>
-T findMaxRecTail(const T[], const int, int = 0);
+T findMaxRecTail(const T arr[], const int SIZE, int i = 0);
 
 /*******************************************************************************
  * Description:
@@ -61,4 +61,14 @@ int main() {
 
     // terminate
     return 0;
+}
+
+
+template <typename T>
+T findMaxRecTail(const T arr[], const int SIZE, int i) {
+    if (i == SIZE - 1) {
+        return arr[i];
+    }
+    int tailMax = findMaxRecTail(arr, SIZE, i + 1);
+    return (arr[i] > tailMax) ? arr[i] : tailMax;
 }
